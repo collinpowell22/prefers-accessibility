@@ -79,7 +79,13 @@ html {
   }
 }
 
-@media (prefers-)
+@media (prefers-reduced-motion) {
+
+  .gear {
+
+    animation: none;
+  }
+}
 /* stylelint-disable media-feature-name-no-unknown */
 
 /**
