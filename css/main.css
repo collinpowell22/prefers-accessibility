@@ -61,6 +61,25 @@ html {
 
 }
 
+@media (prefers-color-scheme: dark) {
+
+  .banner {
+
+    background-color: #333;
+  }
+
+  .banner h1 {
+
+    color: #ccc;
+  }
+
+  body {
+
+    background-color: #111;
+  }
+}
+
+@media (prefers-)
 /* stylelint-disable media-feature-name-no-unknown */
 
 /**
